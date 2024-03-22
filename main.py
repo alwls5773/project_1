@@ -103,7 +103,7 @@ def execute_raspberry_pi_script(name):
     # ssh.exec_command(set_name_command)
 
     # 실행할 스크립트 경로 및 명령어
-    script_path = "/home/pi/test/raspberry_pi_client.py"
+    script_path = "/home/pi/test/raspberry_pi.py"
     command = f"python3 {script_path} {name}"
     stdin, stdout, stderr = ssh.exec_command(command)
 
