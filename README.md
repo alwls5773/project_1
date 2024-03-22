@@ -7,25 +7,29 @@
 ![image](https://github.com/alwls5773/project_1/assets/66359601/f19871a7-d928-41ac-9653-1ff8d1e873f0)
 
 ### 서버 구축: main.py 
-라이브러리: 
+라이브러리: fastapi, pydantic, io, numpy, pymysql, mediapipe, tensorflow, cv2, paramiko, datetime
+
 ![image](https://github.com/alwls5773/project_1/assets/66359601/abc8211f-8fd0-4439-a75d-c5ad3e4ee665)
 
 #### 데이터 전처리: hand_tracking.py
-라이브러리:
+라이브러리: mediapipe, numpy, cv2
 
-#### camera, LED 구동: rasberry_pi.py
-라이브러리:
+#### camera, LED 구동: rasberry_pi.py (raspberry_pi에서 실행되는 파일임)
+라이브러리:picamera2, requests, io, time, RPI.GPIO, sys
 
 #### 웹: static, templates
-라이브러리: 
 ![image](https://github.com/alwls5773/project_1/assets/66359601/fe64ed18-e9ce-48c6-9d79-9b0df04df1da)
 
 ### 데이터베이스 구성: Database.ipynb
-라이브러리: 
+라이브러리: pymysql, pandas
 ![image](https://github.com/alwls5773/project_1/assets/66359601/ae8d3021-f2d2-4619-963b-05934646406f)
 
+### 데이터 수집: Data_collection.py
+라이브러리: cv2, mediapipe, numpy, time, csv
+
 ### 모델 선정: best_model.ipynb
-라이브러리: 
+라이브러리: numpy, pandas, os, tensorflow, sklearn, matplotlib
+
 1. CNN
 - epochs =100, batch_size=40, learning_rate=0.0001
 - 테스트 세트 손실: 0.015 | 테스트 세트 정확도: 0.99
