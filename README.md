@@ -1,5 +1,6 @@
 ## Hand exercise services for preventing alzheimer
 
+https://transparent-grease-a17.notion.site/Digital-Fingerbics-aaccd4c1c8b34e1aad6e19c5bba63cdb?pvs=74
 #### 목적: 치매 예방을 도와주는 손 운동 서비스 제작
 #### 사용툴: numpy, opencv2, tensorflow, pymysql, requests, FastAPI, Amason RDS, MediaPipe
 
